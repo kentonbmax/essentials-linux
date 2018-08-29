@@ -12,6 +12,7 @@
 
 -- Misc
 1. Last Arg: `!$`
+1. Read Env or shell var: `echo $PATH` wherer PATH is the var name.
 
 -- Functions
 1. Set Function: `function set {}`
