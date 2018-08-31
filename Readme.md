@@ -11,6 +11,13 @@
 1. List contents of dir: `ls`
 1. Create Dir: `mkdir mydir`
 
+## SSH
+### Add New Key
+1. Generate key: `ssh-keygen -t rsa -b 4096` 
+1. Copy to .ssh: `mv <filename> /home/ubuntu/.ssh`
+1. Start ssh agent: `eval $(ssh-agent -s)`
+1. Add key: `ssh-add <youkeyfile>`
+
 ## Misc
 1. Last Arg: `!$`
 1. Read Env or shell var: `echo $PATH` wherer PATH is the var name.
