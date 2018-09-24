@@ -13,6 +13,7 @@
 
 ## SSH
 ### Add New Key
+> For conversion or working with putty https://askubuntu.com/questions/818929/login-ssh-with-ppk-file-on-ubuntu-terminal
 1. Generate key: `ssh-keygen -t rsa -b 4096` 
 1. Copy to .ssh: `mv <filename> /home/ubuntu/.ssh`
 1. Start ssh agent: `eval $(ssh-agent -s)`
