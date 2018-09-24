@@ -16,6 +16,7 @@
 1. Generate key: `ssh-keygen -t rsa -b 4096` 
 1. Copy to .ssh: `mv <filename> /home/ubuntu/.ssh`
 1. Start ssh agent: `eval $(ssh-agent -s)`
+1. Linux Permission: `chmod 600 ~/.ssh/<your private key>` This allow necessary permissions and you can still edit if necessary. 
 1. Add key: `ssh-add <youkeyfile>`
 
 ## Misc
